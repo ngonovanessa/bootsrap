@@ -5,94 +5,134 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-            <link rel="stylesheet" href="./bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/css/bootstrap.min.css">
-            <link rel="stylesheet" href="./style.css">
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-            <style>
-                
-                    li:hover{
-                        color: blue;
-                    }
-                    h4:hover{
-                        text-decoration: underline red;
-                        
-                    }
-                
-                    h5:hover{
-                        text-decoration: underline red;
-                        
-                    }
-                    span:hover{
-                        text-decoration: underline red;
-                        
-                    }
-                    
-            </style>
-        </head>
-<body class="container-fluid">
-    <div class="d">
-    <section class=" d-flex col-md-12 fw-bolder bg-danger justify-content-center align-items-center text-white">
-       <div class="col-lg-1 d-none d-lg-block justify-content-center">
-        <date class="date">
-        sat,july,2022</date>
-       </div>
-        <h1 class="col-lg-8  fw-bolder  text-center font-size:20px">
-            Newsweek
-        </h1> 
-        <div class="  bg-danger  d-none d-lg-block">Login
-            <button type="button" class="btn btn-warning  ">
-                  SUBCRIBE FOR 1$</button> </div>
-        </section>
- 
+    <link rel="stylesheet" href="./bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <style>
+        section{
+            background-color: red;
+            margin-left: 10px ;
+            margin-right: 10px;
+            color: antiquewhite;
+            height: 80px;
+            align-items: center;
+            justify-content: space-around;
+            padding-top: 25px;
+            padding-left: 50px;
+            font-size: medium;
+            font-weight: bolder;
+        }
+
+        button{
+            background-color: yellow;
+            border-radius: 5px;
+        }
+        navbar-nav{
+            color: white;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
     
-    <div class="d-flex container-inline ">
-        
-        <ul class="list-group  d-flex col-sm-12  ">
-            <div class="d-flex col-lg-11 fw-bold">
 
-        <li class="list-group-item ">U.S</li>
+    <div class="sticky-top">
+<div class="sticky-top">
+
+    <section class=" d-flex sticky-top justify-content-between ">
+        <date class="text-start col-lg-4 d-none d-lg-block ">
+            Sat,jul 23, 2002
+        </date>
+        <p class="justify-content-between align-items-center col-lg-4">
+            Newsweek
+        </p>
+        <P class=" col-lg-4 ">
+             LOGIN
+           <button class="d-none d-lg-block"> SUBSCRIBE FOR $1</button></P>
+    
+
+
+    <nav class="navbar navbar-expand-lg navbar-light  ">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
         
-        
-        <li class="list-group-item hover:blue ">World</li>
-        <li class="list-group-item">Tech & Science</li>
-        
-        <li class=" list-group-item">Culture</li>
-        <li class=" list-group-item">Autos</li>
-        <li class=" list-group-item">Ranking</li>
-        <li class=" list-group-item">Health</li>
-        <li class="list-group-item">Life</li>
-        <li class="list-group-item">Option</li>
-        <li class=" list-group-item">Experts</li>
-        <li class=" list-group-item ">Education</li>
-        <li class="list-group-item">Podcasts</li>
-        <li class="list-group-item col-lg-2">Vantage search <span class="material-symbols-outlined ">
-            search 
-            
-                </span>
-        </li>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03  navbar-sm-end">
+          <ul class="navbar-nav mr-auto mt-2 border-right mt-lg-0 list-group">
+            <li class="nav-item ">
+              <a class="nav-link active fw-bolder border-end" href="#">U.S</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fw-bolder border-end" href="#">world</a>
+            </li>
+            <li class="nav-item fw-bold">
+              <a class="nav-link active fw-bolder border-end" href="#">TECH SCIENCE</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active fw-bolder border-end" href="#">CULTURE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bolder border-end" href="#">AUTOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bolder border-end" href="#">RANKINGS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  fw-bolder border-end" href="#">HEALTH</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bolder border-end" href="#">LIFE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bolder border-end" href="#">OPINION</a>
+              </li>
+          </ul>
+          
         </div>
-        </ul></div>
         
-        
-            <ul class="list-group  ">
-                <div class="d-flex col-lg-11 fw-bold">
-                <li class="list-group-item col-lg-12">TRENDING  &nbsp JOB BIDEN &nbsp RUSSIA-UKRAINE WAR &nbsp  INFLATION &nbsp DONALD-TRUMP &nbsp JANUARY 6 &nbsp ABORTION &nbsp  &nbsp GUNVIOLENCE &nbsp </li>
-    </div>
-
-</ul>
+      </nav>
+      </div>
 </div>
 
 
 
 
-<div class="d-flex container-fluid">
-    <div class="col-lg-3 order-lg-1 col-md-6 order-md-1 col-sm-12 order-sm-2 mt-3 ">
+
+</div>
+
+
+    
+
+    
+    <div class="d-flex col-lg-12 container-fluid">
+<ul class="list-group d-flex col-lg-12">
+    <div class="d-flex justify-content-between align-items-center">
+    <li class="list-group-item d-none d-lg-block"> TRENDING  <span> JOE BIDEN </span><span>  RUSSIA UKRAINE </span> <span> INFLATION </span>
+        INFLATION <span> DONALD-TRUMP </span> <span>JANUARY 6 </span><span>ABORTION </span> VIOLENCE</li>
+    
+    </div>
+ </ul>
+
+
+
+
+    </div>
+</header>
+
+
+
+
+<div class="d-lg-flex d-md-flex">
+
+    <div class=" container-fluid col-sm-12 order-sm-2 col-lg-4 order-lg-1 col-md-2 order-md-1 ">
+        
         <h4>FEATURES STORIES</h4>
+        <div class="">
+        
         <P>
             <img src="./download.jpg" alt="image"
-            class="1px solid black " width="120px">
+            class="1px solid black " width="220px">
         </P>
-        <h6 class="fw-bold">Trump Faces Clear-cut criminal exposure <br> in Georgia: Attorney</h6>
+        <h6 class="fw-bold col-sm-12">Trump Faces Clear-cut criminal exposure <br> in Georgia: Attorney</h6>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br/>
              A ullam quidem facilis 
              consequuntur? Harum odit, sit reprehenderit alias autem perferendis <br>
@@ -103,13 +143,19 @@
               <p class="fw-bold">Lorem ipsum dolor sit, ametigendi consequunsimos! <br> Optio corrupti nostrum ut rerum
 
              </p>
+             
+              <hr>
+
+
+
+
               <hr>
               <p class="fw-bold"> Lorem ipsum dolort voluptatem doloremque, <br> saepe sapiente perferendis </p>
                 <p>sit reprehenderit alias autem perferendis</p>
-                <img src="./imagi.jpg" alt="">
+                <img src="./imagi.jpg" width="200px" alt="">
                 <hr>
                 <h6>
-                    <img src="./img.jpeg" width="300px" alt=""> <h4 class="fw-bold">
+                    <img src="./img.jpeg" width="200px" alt=""> <h4 class="fw-bold">
                     reprehenderit alias autem perferendis 
                 modi voluptatem amet cupiditate beatae nulla!  </h4>
                 <p>sit reprehenderit alias autem perferendis
@@ -123,7 +169,7 @@
                 <h5 class="fw-bold"> Doloremque, asperior Ni. Placeat molestiae sequi ipsum.</h5>
 <hr>
                 <label>
-                    <img src="./img.jpeg" width="320px" alt="">
+                    <img src="./img.jpeg" width="220px" alt="">
                     <h5 class="fw-bold">Velit sed vitae esse consequatur obcaeit ea ve cum. Ducimus, excepturi</h5>
                     <p>Lorem ipsumoloremque obcaecati piti alias distinctio ratione</p>
                 </label>
@@ -135,7 +181,7 @@
                 <h5 class="fw-bold"> Doloremque, asperior Ni. Placeat molestiae sequi ipsum.</h5>
                 <hr>
                 <h6>
-                    <img src="./download.jpg" width="300px" alt=""> <h4 class="fw-bold">
+                    <img src="./download.jpg" width="200px" alt=""> <h4 class="fw-bold">
                     reprehenderit alias autem perferendis 
                 modi voluptatem amet cupiditate beatae nulla!  </h4>
                 <p>sit reprehenderit alias autem perferendis
@@ -181,12 +227,64 @@
 
 
 
-    </div>
-    <div class="col-lg-3 order-lg-3 col-md-3 order-md-3 col-sm-12 order-sm-3 mt-3">
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class=" container-fluid order-sm-1 col-lg-4  order-lg-2    col-md-2 order-md-2">
         <h4> TOP STORY</h4>
         <P>
-            <img  src="./download.jpg " 
-            class="1px solid black " width="350px" height="160px">
+            <img  src="./download.jpg  " width="220px">
+            
         </P>
         <h6 class="fw-bold">Zelensky Says New Himars from U.S to 'Speed Up' <br>
              Ukraine's Liberation </h6>
@@ -202,34 +300,44 @@
              <hr>
              <h5 class="fw-bold"> Lorem ipsum, dolor sit amet consectetur <br> adipisicing elit. Ex, nostrum? Cupiditat</h5>
              <hr>
+
+
+             <p>
+                <img src="./download.jpg" width="100px" alt=""> <span class="fw-bold "> Thermite munitious</span> <br> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+             </p>
+             <h5 class="fw-bold">Lorem ipsum dolor sit amet  <br>
+                consectetur, adipisicing elit. Cu</h5>
+             <hr>
+             <h5 class="fw-bold"> Lorem ipsum, dolor sit amet consectetur <br> adipisicing elit. Ex, nostrum? Cupiditat</h5>
+             <hr>
              <div class="d-flex">
              <div>
-                <img src="./download.jpg" width="100px" alt="">
+                <img src="./download.jpg" width="50px" alt="">
                 <p> Lorem ipsum dolor sit amet consectet <br> tempora vitae distincti</p>
              </div>
              <br>
              <div>
-                <img src="./download.jpg" width="100px" alt="">
+                <img src="./download.jpg" width="50px" alt="">
                 <p> Lorem ipsum dolor sit amet cons <br> tempora vitae distincti</p>
              </div>
              <br>
-             <div> <img src="./download.jpg" width="100px" alt="">
+             <div> <img src="./download.jpg" width="50px" alt="">
              <p> Lorem ipsum dolor sit amet <br> consectetura vitae distincti</p>
              </div>
              </div>
 
              <div class="d-flex">
              <div>
-                <img src="./img.jpeg" width="100px" alt="">
+                <img src="./img.jpeg" width="50px" alt="">
                 <p> Lorem ipsum dolor sit amet consectet <br> tempora vitae distincti</p>
              </div>
              <br>
              <div>
-                <img src="./img.jpeg" width="100px" alt="">
+                <img src="./img.jpeg" width="50px" alt="">
                 <p> Lorem ipsum dolor sit amet cons <br> tempora vitae distincti</p>
              </div>
              <br>
-             <div> <img src="./img.jpeg" width="100px" alt="">
+             <div> <img src="./img.jpeg" width="50px" alt="">
              <p> Lorem ipsum dolor sit amet <br> consectetura vitae distincti</p>
              </div>
              </div>
@@ -344,6 +452,27 @@
 
  Lorem ipsum dolor sit  </span>
  <hr>
+ <hr>
+              <p class="fw-bold"> Lorem ipsum dolort voluptatem doloremque, <br> saepe sapiente perferendis </p>
+                <p>sit reprehenderit alias autem perferendis</p>
+                <img src="./imagi.jpg" width="200px">
+                <hr>
+                <h6>
+                    <img src="./img.jpeg" width="200px" alt=""> <h4 class="fw-bold">
+                    reprehenderit alias autem perferendis 
+                modi voluptatem amet cupiditate beatae nulla!  </h4>
+                <p>sit reprehenderit alias autem perferendis
+                sit reprehenderit alias autem perferendis </p>
+
+                </h6> <hr>
+                <h5 class="fw-bold">Lorem ipsumoloremque obcaecati piti alias distinctio ratione?</h5>
+                <hr>
+                <h5 class="fw-bold"> Velit sed vitae esse consequatur obcaeit ea ve cum. Ducimus, excepturi!</h5>
+                <hr>
+                <h5 class="fw-bold"> Doloremque, asperior Ni. Placeat molestiae sequi ipsum.</h5>
+<hr>
+
+               
 
  
 </div></div></div>
@@ -367,23 +496,74 @@
 
 
 
+
+
+
+
+
     
-    <div class="col-lg-6 order-lg-2 col-md-3 order-md-2 col-sm-12 order-sm-1 mt-3 "> 
-        
-<h4> THE DEBATE</h4> 
-<div class="d-flex">
-    <img src="./imagi.jpg " class="rounded-circle" width="100px" height="100px" alt=""
-    >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container-fluid col-sm-12 order-sm-3  col-lg-4 order-lg-3    col-md-2 order-md-3 ">
+        <h4> THE DEBATE</h4> 
+<div class="">
+    <img src="./imagi.jpg " class="rounded-circle" width="100px" height="100px" alt="">
+    
     Enforcing the rule would eliminate need for red flat laws
 </div>
 <hr>
 <div class="d-flex">
-    Enforcing the rule would eliminate need for red flat laws <span> <img src="./imagi.jpg " class="rounded-circle" width="100px" height="100px" alt=""
-        >
+    Enforcing the rule would eliminate need for red flat laws <span> <img src="./imagi.jpg " class="rounded-circle" width="100px" height="100px" alt="">
+        
 
     </span>
 </div>
 <hr>
+
+
+
 
 
 
@@ -501,8 +681,6 @@
                 </h4>
 </div>
 
-
-    </div>
 </div>
 
 
@@ -518,5 +696,66 @@
 
 
 
-    </body>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
 </html>
