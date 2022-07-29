@@ -1,0 +1,25 @@
+#first{
+    background-color: red;
+    padding: 20px;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-weight: bolder;
+}
+
+#button{
+    background-color: yellow;
+    border-radius: 30px;
+}
+
+.nav-item{
+    color: black;
+}
+ #newsweek{
+    font-size: larger;
+ }
+
+nav{
+    color: black;
+}

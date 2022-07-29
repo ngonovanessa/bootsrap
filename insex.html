@@ -6,96 +6,203 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/css/bootstrap.min.css">
-    <style>
-        section{
-            background-color: red;
-            margin-left: 10px ;
-            margin-right: 10px;
-            color: antiquewhite;
-            height: 80px;
-            align-items: center;
-            justify-content: space-around;
-            padding-top: 25px;
-            padding-left: 50px;
-            font-size: medium;
-            font-weight: bolder;
-        }
-
-        button{
-            background-color: yellow;
-            border-radius: 5px;
-        }
-        navbar-nav{
-            color: white;
-            background-color: white;
-        }
-    </style>
+    <script src="./bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+     
+       <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+
+
+
+
+
+
+
+    <div class="container-fluid col-lg-12 ">
     
-
+        <span class="d-flex col-lg-12 sticky-top"
+        id="first">
+            <div class="col-lg-4 ">
+                <date class="col-lg-4 d-none d-lg-block">
+                21st,july,2022</date>
+            </div>
+            <div class="col-lg-4 text-center text-sm-start"
+            id="newsweek"> Newsweek</div>
+            <div class="col-lg-2"> LOGIN
+             <BUTton class="text-end "
+                class="button"
+                id="button">SUBSCRIBE FOR 1$</BUTton></div>
+            </span>
+            
+            
     
-<div>
-
-    <section class="sticky-top">
-        <div class=" d-flex sticky-top justify-content-between">
-        <date class="text-start col-lg-4 d-none d-lg-block ">
-            Sat,jul 23, 2002
-        </date>
-        <p class="justify-content-between align-items-center col-lg-4">
-            Newsweek
-        </p>
-        <P class=" col-lg-4 ">
-             LOGIN
-           <button class="d-none d-lg-block"> SUBSCRIBE FOR $1</button></P>
-</div>
-</section>
-
-<div>
-    <nav class="navbar navbar-expand-lg navbar-light  ">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        
-      
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03  navbar-sm-end">
-          <ul class="navbar-nav mr-auto mt-2 border-right mt-lg-0 list-group">
-            <li class="nav-item ">
-              <a class="nav-link active fw-bolder border-end" href="#">U.S</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active fw-bolder border-end" href="#">world</a>
-            </li>
-            <li class="nav-item fw-bold">
-              <a class="nav-link active fw-bolder border-end" href="#">TECH SCIENCE</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active fw-bolder border-end" href="#">CULTURE</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active fw-bolder border-end" href="#">AUTOS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active fw-bolder border-end" href="#">RANKINGS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link  fw-bolder border-end" href="#">HEALTH</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active fw-bolder border-end" href="#">LIFE</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active fw-bolder border-end" href="#">OPINION</a>
-              </li>
-          </ul>
-          
+    
+    
+    
+    <span id="third">
+        <nav class="navbar navbar-expand-sm   navbar-dark  ">
+            <div class="container-fluid text-black">
+              
+              <button id="nav" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon "></span>
+              </button>
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <div class="">
+                <ul class="navbar-nav col-lg-12  border-end-start ">
+                  <li class="nav-item">
+                    <a class="nav-link text-black fw-bold order-sm-2" href="#">U.S</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-black fw-bold order-sm-3 " href="#">WORLD</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-black fw-bold border-end" href="#">TECH $ SCIENCE</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-black fw-bold border-end" href="#">CULTURE</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-black fw-bold " href="#">AUTOS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-black fw-bold " href="#">RANKINGS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-black fw-bold " href="#">HEALTH</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-black fw-bold border-end" href="#">LIFE</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-black fw-bold border-end" href="#">OPINION</a>
+    
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link border-end text-black fw-bold" href="#">EXPERTS</a>
+                  </li>
+                 
+                 
+    
+    
+    
+    
+    
+    
+                  
+                      <form class="d-flex col-lg-2 order-sm-1" role="search">
+                        <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success order-sm-1 d-block d-md-none d-sm-block " type="submit">Search</button>
+                      </form>
+    
+    
+    
+                  
+                </ul>
+                <ul class="navbar-nav col-lg-12  ">
+                    <li class="nav-item">
+                        <a class="nav-link text-black fw-bold border-end active" href="#">TRENDING</a>
+                      </li> 
+                      <li class="nav-item">
+                        <a class="nav-link text-black fw-bold border-end " href="#">JOB BIDEN</a>
+                      </li> 
+                      <li class="nav-item">
+                        <a class="nav-link text-black fw-bold border-end" href="#">RUSSIA</a>
+                      </li> 
+                      <li class="nav-item">
+                        <a class="nav-link text-black fw-bold border-end" href="#">UKRAINE</a>
+                      </li> 
+                      <li class="nav-item">
+                        <a class="nav-link text-black fw-bold border-end" href="#">INFLATION</a>
+                      </li> 
+                      <li class="nav-item">
+                        <a class="nav-link text-black fw-bold border-end" href="#">DONALD-TRUMP</a>
+                      </li> 
+                      <li class="nav-item">
+                        <a class="nav-link text-black fw-bold border-end" href="#">JANUARY</a>
+                      </li> 
+                      <li class="nav-item">
+                        <a class="nav-link text-black fw-bold border-end" href="#">CLIMATE CHANGE</a>
+                      </li> 
+    
+                </ul>
+                
+    
+                
+    
+    
+    
+    
+    
+              </div>
+            </div>
+            
+          </nav>
         </div>
+    
+    
+    
+    
+    
+    
+    
+    
         
-      </nav>
     </div>
-      
-      </div>
-</div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+    
 
 
 
@@ -106,11 +213,6 @@
     
 
     
-    <div class="d-flex col-lg-12 container-fluid">
-<ul class="list-group d-flex col-lg-12">
-    <div class="d-flex justify-content-between align-items-center">
-    <li class="list-group-item d-none d-lg-block"> TRENDING  <span> JOE BIDEN </span><span>  RUSSIA UKRAINE </span> <span> INFLATION </span>
-        INFLATION <span> DONALD-TRUMP </span> <span>JANUARY 6 </span><span>ABORTION </span> VIOLENCE</li>
     
     
     
@@ -143,53 +245,47 @@
     
     
     
-    </div>
- </ul>
+    
 
 
 
+<!--body--->
+<div class="d-block d-md-flex d-lg-flex   justify-content-between">
 
-    </div>
-</header>
-
-
-
-
-<div class="d-lg-flex d-md-flex">
-
-    <div class=" container-fluid col-sm-12 order-sm-2 col-lg-4 order-lg-1 col-md-2 order-md-1 ">
+    <div class="  col-sm-12 order-sm-2 justify-content-center padding-3 container-fluid order-lg-1 col-md-2 order-md-1 "
+    id="column1">
         
-        <h4>FEATURES STORIES</h4>
+        <h4>FEATURES </h4>
         <div class="">
         
         <P>
             <img src="./download.jpg" alt="image"
-            class="1px solid black " width="220px">
+            class="1px solid black " width="200px" height="200px">
         </P>
-        <h6 class="fw-bold col-sm-12">Trump Faces Clear-cut criminal exposure <br> in Georgia: Attorney</h6>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br/>
+        <h6 class="fw-bold col-sm-12">Trump Faces Clear-cut criminal exposure  in Georgia: Attorney</h6>
+        <p id="shift">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
              A ullam quidem facilis 
-             consequuntur? Harum odit, sit reprehenderit alias autem perferendis <br>
+             consequuntur? Harum odit, sit reprehenderit alias autem perferendis 
               temporibus hic voluptates modi voluptatem amet cupiditate beatae nulla! Ut?</p>
               <hr>
-              <p class="fw-bold">Lorem ipsum dolort voluptatem doloremque, <br> saepe sapiente perferendis?</p>
+              <p class="fw-bold">Lorem ipsum dolort voluptatem doloremque,  saepe sapiente perf  erendis?</p>
               <hr>
-              <p class="fw-bold">Lorem ipsum dolor sit, ametigendi consequunsimos! <br> Optio corrupti nostrum ut rerum
+              <p class="fw-bold">Lorem ipsum dolor sit, ametigendi consequunsimos!  Optio corrupti nostrum ut rerum
 
              </p>
              
               <hr>
 
-
+ 
 
 
               <hr>
               <p class="fw-bold"> Lorem ipsum dolort voluptatem doloremque, <br> saepe sapiente perferendis </p>
                 <p>sit reprehenderit alias autem perferendis</p>
-                <img src="./imagi.jpg" width="200px" alt="">
+                <img src="./imagi.jpg" width="150px" alt=""> <br>
                 <hr>
                 <h6>
-                    <img src="./img.jpeg" width="200px" alt=""> <h4 class="fw-bold">
+                    <img src="./img.jpeg" width="150px" alt=""> <h4 class="fw-bold">
                     reprehenderit alias autem perferendis 
                 modi voluptatem amet cupiditate beatae nulla!  </h4>
                 <p>sit reprehenderit alias autem perferendis
@@ -314,22 +410,23 @@
 
 
 
-    <div class=" container-fluid order-sm-1 col-lg-4  order-lg-2    col-md-2 order-md-2">
+    <div class="  order-sm-1 col-lg-4  order-lg-2  container-fluid  col-md-3 order-md-2"
+    id="column2">
         <h4> TOP STORY</h4>
         <P>
-            <img  src="./download.jpg  " width="220px">
+            <img id="image" src="./download.jpg  " width="200px" height="200px">
             
         </P>
-        <h6 class="fw-bold">Zelensky Says New Himars from U.S to 'Speed Up' <br>
+        <h6 class="fw-bold">Zelensky Says New Himars from U.S to 'Speed Up'
              Ukraine's Liberation </h6>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-             Ad quamo, nesciunt <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+             Ad quamo, nesciunt 
              </p>
              <hr>
              <p>
-                <img src="./download.jpg" width="100px" alt=""> <span class="fw-bold "> Thermite munitious</span> <br> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                <img src="./download.jpg" width="200px" alt=""> <span class="fw-bold "> Thermite munitious</span> <br> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
              </p>
-             <h5 class="fw-bold">Lorem ipsum dolor sit amet  <br>
+             <h5 class="fw-bold">Lorem ipsum dolor sit amet  
                 consectetur, adipisicing elit. Cu</h5>
              <hr>
              <h5 class="fw-bold"> Lorem ipsum, dolor sit amet consectetur <br> adipisicing elit. Ex, nostrum? Cupiditat</h5>
@@ -337,41 +434,41 @@
 
 
              <p>
-                <img src="./download.jpg" width="100px" alt=""> <span class="fw-bold "> Thermite munitious</span> <br> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                <img src="./download.jpg" width="200px" alt=""> <span class="fw-bold "> Thermite munitious</span> <br> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
              </p>
-             <h5 class="fw-bold">Lorem ipsum dolor sit amet  <br>
+             <h5 class="fw-bold">Lorem ipsum dolor sit amet  
                 consectetur, adipisicing elit. Cu</h5>
              <hr>
              <h5 class="fw-bold"> Lorem ipsum, dolor sit amet consectetur <br> adipisicing elit. Ex, nostrum? Cupiditat</h5>
              <hr>
-             <div class="d-flex">
-             <div>
+             <div class="d-lg-flex">
+             <div class="col-sm-12">
                 <img src="./download.jpg" width="50px" alt="">
-                <p> Lorem ipsum dolor sit amet consectet <br> tempora vitae distincti</p>
+                <p> Lorem ipsum dolor sit amet consectet  tempora vitae distincti</p>
              </div>
-             <br>
-             <div>
+             
+             <div class="col-sm-12">
                 <img src="./download.jpg" width="50px" alt="">
                 <p> Lorem ipsum dolor sit amet cons <br> tempora vitae distincti</p>
              </div>
-             <br>
-             <div> <img src="./download.jpg" width="50px" alt="">
+             
+             <div class="col-sm-12"> <img src="./download.jpg" width="50px" alt="">
              <p> Lorem ipsum dolor sit amet <br> consectetura vitae distincti</p>
              </div>
              </div>
 
-             <div class="d-flex">
-             <div>
+             <div class="d-lg-flex">
+             <div class="col-sm-12">
                 <img src="./img.jpeg" width="50px" alt="">
                 <p> Lorem ipsum dolor sit amet consectet <br> tempora vitae distincti</p>
              </div>
              <br>
-             <div>
+             <div class="col-sm-12">
                 <img src="./img.jpeg" width="50px" alt="">
                 <p> Lorem ipsum dolor sit amet cons <br> tempora vitae distincti</p>
              </div>
              <br>
-             <div> <img src="./img.jpeg" width="50px" alt="">
+             <div class="col-sm-12"> <img src="./img.jpeg" width="50px" alt="">
              <p> Lorem ipsum dolor sit amet <br> consectetura vitae distincti</p>
              </div>
              </div>
@@ -412,7 +509,7 @@
  </div><hr>
 
  <div><span>
-    <img src="./download.jpg" width="100px" alt="">
+    <img src="./download.jpg" width="150px" alt="">
 
 
  Lorem ipsum dolor sit  
@@ -420,7 +517,7 @@
 </div><hr>
 
 <div><span>
-    <img src="./download.jpg" width="100px" alt="">
+    <img src="./download.jpg" width="150px" alt="">
 
 
  Lorem ipsum dolor sit  
@@ -428,7 +525,7 @@
 </div><hr>
 
 <div><span>
-    <img src="./download.jpg" width="100px" alt="">
+    <img src="./download.jpg" width="150px" alt="">
 
 
  Lorem ipsum dolor sit  
@@ -436,7 +533,7 @@
 </div><hr>
 
 <div><span>
-    <img src="./download.jpg" width="100px" alt="">
+    <img src="./download.jpg" width="150px" alt="">
 
 
  Lorem ipsum dolor sit  
@@ -444,7 +541,7 @@
 </div><hr>
 
 <div><span>
-    <img src="./download.jpg" width="100px" alt="">
+    <img src="./download.jpg" width="150px" alt="">
 
 
  Lorem ipsum dolor sit  
@@ -452,7 +549,7 @@
 </div><hr>
 
              <div><span>
-                <img src="./download.jpg" width="100px" alt="">
+                <img src="./download.jpg" width="150px" alt="">
             
             
              Lorem ipsum dolor sit  
@@ -460,7 +557,7 @@
          </div><hr>
 
          <div><span>
-            <img src="./download.jpg" width="100px" alt="">
+            <img src="./download.jpg" width="150px" alt="">
         
         
          Lorem ipsum dolor sit  
@@ -468,20 +565,20 @@
      </div><hr>
 
      <div><span>
-        <img src="./download.jpg" width="100px" alt="">
+        <img src="./download.jpg" width="150px" alt="">
     
     
      Lorem ipsum dolor sit  
      </span>
  </div><hr>
  <div><span>
-    <img src="./download.jpg" width="100px" alt="">
+    <img src="./download.jpg" width="150px" alt="">
 
 
  Lorem ipsum dolor sit  </span>
  <hr>
  <div><span>
-    <img src="./download.jpg" width="100px" alt="">
+    <img src="./download.jpg" width="150px" alt="">
 
 
  Lorem ipsum dolor sit  </span>
@@ -534,205 +631,69 @@
 
 
 
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div class="container-fluid col-sm-12 order-sm-3  col-lg-4 order-lg-3    col-md-2 order-md-3 ">
-        <h4> THE DEBATE</h4> 
-<div class="">
-    <img src="./imagi.jpg " class="rounded-circle" width="100px" height="100px" alt="">
-    
-    Enforcing the rule would eliminate need for red flat laws
-</div>
-<hr>
-<div class="d-flex">
-    Enforcing the rule would eliminate need for red flat laws <span> <img src="./imagi.jpg " class="rounded-circle" width="100px" height="100px" alt="">
+<div class="col-lg-4 order-lg-2 col-md-3 order-md-2 container-fluid col-sm-12 order-sm-1 mt-3 "> 
         
-
-    </span>
-</div>
-<hr>
-
-
-
-
-
-
-<div class="d-flex ">
-    <img src="./download.jpg" class="rounded-circle" width="100px" height="100px" alt=""
-    >
-    Enforcing the rule would eliminate need for red flat laws
-</div>
-<hr>
-
-
-<div class="d-flex">
-    <img src="./imagi.jpg " class="rounded-circle" width="100px" height="100px" alt=""
-    >
-    Enforcing the rule would eliminate need for red flat laws
-</div>
-<hr>
-
-
-<div class="d-flex">
-    <img src="./download.jpg" class="rounded-circle" width="100px" height="100px" alt=""
-    >
-    Enforcing the rule would eliminate need for red flat laws
-</div>
-<hr>
-        
-<div class="d-flex">
-    <img src="./download.jpg" class="rounded-circle" width="100px" height="100px" alt=""
-    >
-    Enforcing the rule would eliminate need for red flat laws
-</div>
-<hr>
-
-<div class="d-flex">
-    <img src="./imagi.jpg " class="rounded-circle" width="100px" height="100px" alt=""
-    >
-    Enforcing the rule would eliminate need for red flat laws
-</div>
-<hr>
-
-<div class="d-flex">
-    <img src="./imagi.jpg " class="rounded-circle" width="100px" height="100px" alt=""
-    >
-    Enforcing the rule would eliminate need for red flat laws
-</div>
-<hr>
-
-<div class="d-flex">
-    <img src="./imagi.jpg " class="rounded-circle" width="100px" height="100px" alt=""
-    >
-    Enforcing the rule would eliminate need for red flat laws
-</div>
-<hr>
-
-<div class="d-flex">
-    <img src="./download.jpg" class="rounded-circle" width="100px" height="100px" alt=""
-    >
-    Enforcing the rule would eliminate need for red flat laws
-</div>
-<hr>
-
-
-<div>
-<img src="https://image.shutterstock.com/image-photo/red-glowing-simple-christmas-background-260nw-122212870.jpg " width="280px" height="250px" alt="">
-<h4 class="fw-bold">Enforcing the rule would eliminate need for red flat laws
-</h4>
-<P>Eileen tells about being stuck at the Detroit airport before ending up in Albany, NY driving the Rivian R1S electric SUV. Nicole shares how she avoided airports and took a road trip in a Jeep Wrangler 4xe instead.
-</P>
-</div>
-<hr>
-<div class="container bg-light">
-    <span class="badge badge-danger"> N</span>
-    <h1> my first bootstrap</h1>
-    
-       <p> <input type="text" placeholder="email address"> </p>
-    
-   <p> <button class="bg-danger">Free sign up</button> </p>
-
-
-</div>
-<hr>
-
-<div class="container ">
-    <img src="./download.jpg" alt="">
-        <span class="fw-bold text-white justify-content-center align-items-center"> Enforcing the rule  would eliminate need for  red flat laws
-  
-        
-    </span>
-        <h4 class="fw-bold">Enforcing the rule would eliminate need for red flat laws
-        </h4>
-        <P>Eileen tells about being stuck at the Detroit airport before ending up in Albany, NY driving the Rivian R1S electric SUV. Nicole shares how she avoided airports and took a road trip in a Jeep Wrangler 4xe instead.
-        </P>
+    <h4> THE DEBATE</h4> 
+    <div class="d-flex">
+        <img src="./imagi.jpg " class="rounded-circle" width="100px" height="100px" alt=""
+        >
+        Enforcing the rule would eliminate need for red flat laws
     </div>
     <hr>
-
-    <div class="container bg-liht ">
-        <img src="./img.jpeg" width="300px" alt="">
-            <span class="fw-bold text-white justify-content-center align-items-center"> Enforcing the rule  would eliminate need for  red flat laws
-      
-            
+    <div class="d-flex">
+        Enforcing the rule would eliminate need for red flat laws <span> <img src="./imagi.jpg " class="rounded-circle" width="100px" height="100px" alt=""
+            >
+    
         </span>
-            <h4 class="fw-bold">Enforcing the rule would eliminate need for red flat laws
-            </h4>
-            <P>Eileen tells about being stuck at the Detroit airport before ending up in Albany, NY driving the Rivian R1S electric SUV. Nicole shares how she avoided airports and took a road trip in a Jeep Wrangler 4xe instead.
-            </P>
-        </div>
-
-        <div class="container bg-liht ">
-            <img src="./img.jpeg" width="300px" alt="">
-                <span class="fw-bold text-white justify-content-center align-items-center"> Enforcing the rule  would eliminate need for  red flat laws
-          
-                
-            </span>
-                <h4 class="fw-bold">Enforcing the rule would eliminate need for red flat laws
-                </h4>
-</div>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
+    <hr>
+    
+    
+    
+    <div class="d-flex ">
+        <img src="./download.jpg" class="rounded-circle" width="100px" height="100px" alt=""
+        >
+        Enforcing the rule would eliminate need for red flat laws
+    </div>
+    <hr>
+    
+    
+    <div class="d-flex">
+        <img src="./imagi.jpg " class="rounded-circle" width="100px" height="100px" alt=""
+        >
+        Enforcing the rule would eliminate need for red flat laws
+    </div>
+    <hr>
+    
+    
+    <div class="d-flex">
+        <img src="./download.jpg" class="rounded-circle" width="100px" height="100px" alt=""
+        >
+        Enforcing the rule would eliminate need for red flat laws
+    </div>
+    <hr>
+            
+    <div class="d-flex">
+        <img src="./download.jpg" class="rounded-circle" width="100px" height="100px" alt=""
+        >
+        Enforcing the rule would eliminate need for red flat laws
+    </div>
+    <hr>
+    
+    <div class="d-flex">
+        <img src="./imagi.jpg " class="rounded-circle" width="100px" height="100px" alt=""
+        >
+        Enforcing the rule would eliminate need for red flat laws
+    </div>
+    <hr>
+    
+    <div class="d-flex">
+        <img src="./imagi.jpg " class="rounded-circle" width="100px" height="100px" alt=""
+        >
+        Enforcing the rule would eliminate need for red flat laws
+    </div>
+    <hr>
+    
 
 
 
@@ -758,6 +719,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+
+
+</div>
 
     
 
